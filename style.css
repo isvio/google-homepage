@@ -21,11 +21,30 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+body {
+    font-family: arial, sans-serif;
+}
+
 header {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 100px;
+    height: 10vh;
+}
+
+.avatar {
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+}
+
+header ul {
+    font-size: 15px;
+    padding: 25px;
+}
+
+header ul li {
+    padding: 10px;
 }
 
 li {
@@ -38,21 +57,52 @@ ul {
 }
 
 header ul {
-    
     float: right;
 }
 
 main {
     position: fixed;
     top: 150px;
-    left: 30vw;
+    left: 0;
     margin: auto;
-    width: 100px;
+    width: 100%;
+    height: auto;
 }
 
+.google-search {
+    text-align: center;
+}
+
+input {
+    margin-top: 15px;
+    width: 450px;
+    height: 30px;
+    border-radius: 20px;
+    box-shadow: none;
+    border: 1px solid rgba(23, 12, 12, 0.2);
+    margin-bottom: 25px;
+}
+
+button {
+    border: none;
+    width: 130px;
+    height: 35px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #424242;
+}
+
+
 footer {
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    bottom: 15px;
+    padding-bottom: 5px;
     width: 100%;
-    width: 100px;
+    height: 60px;
 }
